@@ -2,28 +2,28 @@
 class Cavelon < Formula
   desc "CLI and MCP server for building Cavelon solutions with a coding agent"
   homepage "https://github.com/goodguys-gmbh/cavelon-dev-kit"
-  version "0.2.15"
+  version "0.2.16"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/goodguys-gmbh/cavelon-dev-kit/releases/download/v0.2.15/cavelon-darwin-arm64"
-      sha256 "709c4036a3870115d136885f4b65146f5c4b3065015a501ab9efca01188b7433"
+      url "https://github.com/goodguys-gmbh/cavelon-dev-kit/releases/download/v0.2.16/cavelon-darwin-arm64"
+      sha256 "a293dcbb92a8001cb33d0ad6a1a8619ba94472f762ffcf1321c677b42c3e36c1"
     end
     on_intel do
-      url "https://github.com/goodguys-gmbh/cavelon-dev-kit/releases/download/v0.2.15/cavelon-darwin-x64"
-      sha256 "6ebd11200d646af5c976db104d57af712004851e9c97cbe9902d39e6ef6b1ac2"
+      url "https://github.com/goodguys-gmbh/cavelon-dev-kit/releases/download/v0.2.16/cavelon-darwin-x64"
+      sha256 "6f8f8bae1e0b730b26fe43457cb9efb47ef68b743cc85cc70ff7efdbb2855a2a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/goodguys-gmbh/cavelon-dev-kit/releases/download/v0.2.15/cavelon-linux-arm64"
-      sha256 "c236b0ce7016e5a79f0dc9df74ddf2bbe7e4e8a84bc6b3526eaa62f9c5e90b58"
+      url "https://github.com/goodguys-gmbh/cavelon-dev-kit/releases/download/v0.2.16/cavelon-linux-arm64"
+      sha256 "acfa9cd8fb00f8e984d677d207a7fcf4f70c2ea0f9d5a2d929aea44f751f410e"
     end
     on_intel do
-      url "https://github.com/goodguys-gmbh/cavelon-dev-kit/releases/download/v0.2.15/cavelon-linux-x64"
-      sha256 "101c3c8aa36cb55b57eda68df5f1c7a10442df9d9c008464dbbc6cd2163615f9"
+      url "https://github.com/goodguys-gmbh/cavelon-dev-kit/releases/download/v0.2.16/cavelon-linux-x64"
+      sha256 "e30d7c87c32571b01722f79a3f32e2dbf7d3c0f591f7e61919384c4b0702789c"
     end
   end
 
